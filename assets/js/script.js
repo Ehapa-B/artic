@@ -39,13 +39,13 @@ tabset.forEach((radio) => {
     items.forEach((item) => {
       if (value === "All") {
         // show all items
-        item.parentElement.parentElement.style.display = "flex";
+        item.parentElement.parentElement.style.display = "inline-block";
       } else if (value === "Male" && item.textContent === "Male") {
         // show male items
-        item.parentElement.parentElement.style.display = "flex";
+        item.parentElement.parentElement.style.display = "inline-block";
       } else if (value === "Female" && item.textContent === "Female") {
         // show female items
-        item.parentElement.parentElement.style.display = "flex";
+        item.parentElement.parentElement.style.display = "inline-block";
       } else {
         // hide other items
         item.parentElement.parentElement.style.display = "none";
